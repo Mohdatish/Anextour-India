@@ -1,4 +1,6 @@
+import Image from 'next/image'
 import React from 'react'
+import "../app/styles/footer.css"
 
 const Footer = () => {
     return (
@@ -68,33 +70,33 @@ const Footer = () => {
                     <div className="d-flex flex-wrap justify-content-between align-items-center gap-3 copyright mt-4">
                         <p>Copyright © 2025 Anextour. All rights reserved.</p>
                         <div className="d-flex justify-content-start align-items-center gap-2">
-                            <img src="images/logo-instagram.svg" alt="image" />
-                            <img src="images/logo-twitter.svg" alt="image" />
-                            <img src="images/logo-facebook.svg" alt="image" />
+                            <Image width={20} height={20} src="/assets/image.jpg" alt="image" />
+                            <Image width={20} height={20} src="/assets/image.jpg" alt="image" />
+                            <Image width={20} height={20} src="/assets/image.jpg" alt="image" />
 
                         </div>
                     </div>
                     <div className="d-flex gap-3 flex-wrap justify-content-between align-items-center companies mt-4">
                         <div>
-                            <img src="images/anextour.png" alt="image" />
+                            <Image width={20} height={20} src="/assets/image.jpg" alt="image" />
                         </div>
                         <div>
-                            <img src="images/atg.png" alt="image" />
+                            <Image width={20} height={20} src="/assets/image.jpg" alt="image" />
                         </div>
                         <div>
-                            <img src="images/bucher.jpeg" alt="image" />
+                            <Image width={20} height={20} src="/assets/image.jpg" alt="image" />
                         </div>
                         <div>
-                            <img src="images/intourist.png" alt="image" />
+                            <Image width={20} height={20} src="/assets/image.jpg" alt="image" />
                         </div>
                         <div>
-                            <img src="images/mga.png" alt="image" />
+                            <Image width={20} height={20} src="/assets/image.jpg" alt="image" />
                         </div>
                         <div>
-                            <img src="images/neckermann.jpeg" alt="image" />
+                            <Image width={20} height={20} src="/assets/image.jpg" alt="image" />
                         </div>
                         <div>
-                            <img src="images/selectum.png" alt="image" />
+                            <Image width={20} height={20} src="/assets/image.jpg" alt="image" />
                         </div>
                     </div>
 

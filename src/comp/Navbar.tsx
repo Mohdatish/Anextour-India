@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import React from 'react'
+import "../app/styles/navbar.css"
 
 const Navbar = () => {
     return (

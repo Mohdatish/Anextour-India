@@ -5,6 +5,7 @@ import Title from '@/comp/Title'
 import PreSelectedFlight from '@/comp/PreSelectedFlight'
 import LeftFilter from '@/comp/LeftFilter'
 import HotelCard from '@/comp/card/HotelCard'
+import Link from 'next/link'
 
 
 const page = () => {
@@ -22,7 +23,22 @@ const page = () => {
                     <LeftFilter />
                 </div>
                 <div className='col-xs-12 col-sm-12 col-md-8 col-lg-8'>
-                   <HotelCard />
+                    <Link href="/hotels/hotel-details">
+                        <HotelCard />
+                    </Link>
+                    <br />
+                    <Link href="/hotels/hotel-details">
+                        <HotelCard />
+                    </Link>
+                    <br />
+                    <Link href="/hotels/hotel-details">
+                        <HotelCard />
+                    </Link>
+                    <br />
+                    <Link href="/hotels/hotel-details">
+                        <HotelCard />
+                    </Link>
+                    <br />
                 </div>
             </div>
         </div>

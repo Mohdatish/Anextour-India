@@ -4,6 +4,7 @@ import BlueHeading from './BlueHeading'
 import TopDestination from './TopDestination'
 import FindEscape from './FindEscape'
 import Crousel from './Crousel'
+import "../app/styles/home.css"
 
 const HomePage = () => {
     return (

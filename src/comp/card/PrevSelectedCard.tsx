@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import "../../app/styles/hotel-flight.css"
 
 const PrevSelectedCard = () => {
     return (

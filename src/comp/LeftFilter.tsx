@@ -1,4 +1,5 @@
 import React from 'react'
+import "../app/styles/left-filter.css"
 
 const LeftFilter = () => {
     return (
