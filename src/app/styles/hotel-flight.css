@@ -1,0 +1,94 @@
+.flight-card-wrapper {
+    background-color: #fff;
+    border-radius: 12px;
+  }
+
+  .flight-label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #333;
+  }
+
+  .flight-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .flight-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    object-fit: cover;
+  }
+
+  .flight-time {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .flight-info {
+    text-align: center;
+    min-width: 70px;
+  }
+
+  .flight-info small {
+    color: #666;
+  }
+
+  .flight-route {
+    text-align: center;
+    flex: 1;
+    position: relative;
+    margin: 0 20px;
+  }
+
+  .flight-line {
+    position: relative;
+    height: 2px;
+    background-color: #ccc;
+    margin: 10px 0;
+  }
+
+  .flight-line::before,
+  .flight-line::after {
+    content: '';
+    position: absolute;
+    top: -4px;
+    width: 10px;
+    height: 10px;
+    background-color: #f9f9f9;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+  }
+
+  .flight-line::before {
+    left: 0;
+  }
+
+  .flight-line::after {
+    right: 0;
+  }
+
+  .direct-tag {
+    background-color: #392f9b;
+    color: white;
+    font-size: 0.7rem;
+    padding: 2px 6px;
+    border-radius: 4px;
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .duration {
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: 4px;
+  }
+
+  .flight-icons i {
+    font-size: 1.1rem;
+    margin-left: 10px;
+  }

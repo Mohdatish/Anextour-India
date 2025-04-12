@@ -1,0 +1,186 @@
+.filter {
+    width: 100%;
+    max-width: 350px;
+    /* Adjust based on your preferred maximum width */
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: auto;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border: 1px solid #3636361a;
+    box-sizing: border-box;
+    /* Ensure padding doesn't increase the total width */
+}
+
+.filter .line {
+    background: #36363640;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 1px;
+}
+
+.filter h6 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31.82px;
+    margin: 0;
+    padding: 20px 20px 0px 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.filter p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23.87px;
+    margin: 0;
+    text-align: left;
+    padding: 0px 30px 10px 30px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.slider-container {
+    width: 100%;
+    margin: auto;
+}
+
+/* Style the slider track */
+.slider {
+    -webkit-appearance: none;
+    /* Remove default styling for Webkit browsers */
+    width: 100%;
+    height: 6px;
+    border-radius: 5px;
+    /* Rounded corners */
+    background: lightgray;
+    outline: none;
+    /* Remove outline when focused */
+    opacity: 0.9;
+    transition: opacity 0.3s;
+}
+
+.slider:hover {
+    opacity: 1;
+    /* Brighten on hover */
+}
+
+/* Style the slider thumb (the draggable circle) */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    /* Remove default styling */
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    /* Make it a circle */
+    background: #312783;
+    /* White thumb */
+    cursor: pointer;
+    /* Pointer cursor */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #771414;
+    border: 2px solid #312783;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* For Internet Explorer */
+.slider::-ms-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #8f1919;
+    border: 2px solid #312783;
+    cursor: pointer;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    padding-left: 31px;
+    gap: 10px;
+    color: #4a4a4a;
+    margin-top: 10px;
+    line-height: 20.83px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.checkbox-input {
+    display: none;
+    /* Hide the default checkbox */
+}
+
+.custom-checkbox {
+    width: 14px;
+    height: 14px;
+    border: 1px solid #4a4a4a;
+    border-radius: 3px;
+    display: inline-block;
+    margin-right: 10px;
+    background-color: white;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+/* When checkbox is checked */
+.checkbox-input:checked+.custom-checkbox {
+    background-color: #312783;
+    border-color: #312783;
+}
+
+.checkbox-input:checked+.custom-checkbox::after {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 4px;
+    width: 3px;
+    height: 7px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.min-max-value {
+    padding: 0px 30px 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15.62px;
+    color: lightgrey;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.transparent-button {
+    background: none;
+    border: none;
+    color: transparent;
+    /* Text is transparent */
+    position: relative;
+    font-size: 14px;
+    cursor: pointer;
+    color: #312783;
+    text-decoration-line: underline;
+    font-family: Arial, sans-serif;
+    padding: 10px 31px 0px 31px;
+}
+
+.results {
+    width: 100%;
+    max-width: 790px;
+}

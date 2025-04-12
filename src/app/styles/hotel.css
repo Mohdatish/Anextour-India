@@ -1,0 +1,12 @@
+.hotel-card {
+    max-width: 1140;
+    height: 261;
+    border-radius: 20px;
+  }
+
+  .hotel-image {
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+  }
