@@ -1,0 +1,16 @@
+.navbar {
+    background-color: transparent !important;
+    height: 70px;
+}
+
+.nav-logo{
+    width: 180px;
+}
+
+.nav-link{
+    font-size: 20px;
+    color: #ffffff !important;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+

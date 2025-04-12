@@ -4,6 +4,12 @@ import "./styles/globals.css";
 import "./styles/hotel-flight.css";
 import "./styles/left-filter.css"
 import "./styles/hotel.css";
+import "./styles/navbar.css";
+import "./styles/home.css"
+import "./styles/footer.css"
+import "./styles/search-bar.css"
+import Navbar from "@/comp/Navbar";
+import Footer from "@/comp/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,12 +34,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossOrigin="anonymous"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossOrigin="anonymous" />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <Navbar />
         {children}
+        <br/>
+        <Footer />
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossOrigin="anonymous"></script>
-
       </body>
     </html>
   );
