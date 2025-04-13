@@ -225,3 +225,503 @@
   letter-spacing: 0%;
   color: #4A4A4A;
 }
+
+
+
+.detail-card {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  border-radius: 20px;
+  background: #FFFFFF;
+}
+
+.card-heading {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  margin-bottom: 10px;
+  letter-spacing: 0%;
+}
+
+.fa-envelope-open-text,
+.fa-ticket {
+  color: #2E3192 !important;
+}
+
+.outline-btn {
+  width: 100%;
+  max-width: 180px;
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 10px 10px 10px 20px;
+  background-color: transparent !important;
+  color: #E30613 !important;
+  border: 1px solid #E30613;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+}
+
+select,
+input.detail-input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #4342421A !important;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  background-color: #F8F8F8;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #312783 !important;
+  outline: none;
+}
+
+
+
+.overview-card {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  border-radius: 20px;
+  background: #FFFFFF;
+
+  img {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+  }
+
+  .title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000;
+  }
+}
+
+
+
+.price-card2 {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  border-radius: 20px;
+  border: none !important;
+  box-shadow: none !important;
+  background: #FFFFFF;
+}
+
+.terms-text {
+  font-size: 13px;
+  font-weight: 400;
+  color: #363636;
+
+  span {
+    color: #312783;
+    font-weight: 300 !important;
+    text-decoration: underline;
+  }
+}
+
+
+
+.flight-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  max-width: 540px;
+  margin: 40px auto;
+  padding: 20px 25px;
+}
+
+.card-headers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.card-header h5 {
+  font-weight: 600;
+  margin: 0;
+}
+
+.card-header a {
+  font-size: 14px !important;
+  color: #dc3545 !important;
+}
+
+.flight-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+}
+
+.flight-entry:first-of-type {
+  border-top: none;
+}
+
+.airline-logo {
+  width: 42px;
+  height: 42px;
+  border-radius: 8px;
+}
+
+.flight-info {
+  margin-left: 14px;
+}
+
+.flight-time {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.flight-route {
+  font-size: 14px;
+  color: #666;
+}
+
+.flight-meta {
+  text-align: right;
+  font-size: 14px;
+  color: #666;
+}
+
+
+.transfer_section {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.transfer_main_heading {
+  font-weight: 600;
+  font-size: 17px;
+  letter-spacing: 0%;
+}
+
+.transfer_main_description {
+  font-size: 12px;
+  letter-spacing: 0%;
+}
+
+
+.transfer_navigation_title {
+  font-weight: 600;
+  color: #312783;
+  font-size: 13px;
+  margin-top: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+}
+
+.transfer_header_area {
+  margin-bottom: 15px;
+}
+
+.transfer_option_box {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 20px;
+  padding: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.transfer_details_info {
+  display: flex;
+  align-items: center;
+}
+
+.transfer_car_icon_text {
+  font-size: 1.5rem;
+  margin-right: 15px;
+  color: #0d6efd;
+  /* Bootstrap primary color */
+}
+
+.transfer_text_content {
+  flex-grow: 1;
+}
+
+.transfer_vehicle_type {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.transfer_meta_data {
+  font-size: 0.875rem;
+  color: #6c757d;
+}
+
+.transfer_price_action {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.transfer_amount {
+  font-weight: bold;
+}
+
+.transfer_price_unit {
+  font-size: 0.875rem;
+  color: #6c757d;
+  display: block;
+}
+
+.transfer_button {
+  padding: 3px 22px;
+  border: none;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.transfer_button_selected {
+  background-color: #E30613;
+  /* Bootstrap danger color */
+  color: #fff;
+}
+
+.transfer_button_unselected {
+  background-color: transparent;
+  color: #E30613;
+  /* Bootstrap primary color */
+  border: 1px solid #E30613;
+}
+
+
+.baggage-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.baggage-header {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.accordion-item {
+  border: none !important;
+}
+
+.accordion-header button {
+  background-color: #fff;
+  color: #212529;
+  padding: 1rem 1.25rem;
+  width: 100%;
+  text-align: left;
+  border: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.accordion-header button:focus {
+  box-shadow: none;
+}
+
+.accordion-body {
+  padding: 1rem 1.25rem;
+}
+
+.baggage-option {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+
+.baggage-label {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.baggage-price {
+  color: #000;
+  font-weight: bold;
+}
+
+.baggage-select-button {
+  padding: 3px 22px;
+  border: 1px solid #E30613;
+  font-size: 14px;
+  color: #E30613;
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+
+.main-detail {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 30px;
+  align-items: flex-start;
+
+  /* Timeline Container */
+  .timeline {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      position: relative;
+      padding-left: 2px;
+      gap: 40px;
+      /* Space between entries */
+      max-width: 500px;
+  }
+
+  /* Line Between Circles */
+  .line {
+      width: 2px;
+      height: 90px;
+      background-color: #ccc;
+      position: absolute;
+      top: 4px;
+      bottom: 35px;
+      left: 7px;
+  }
+
+  /* Individual Timeline Entry */
+  .timeline-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 15px;
+  }
+
+  /* Circle */
+  .circle-verticle {
+      width: 12px;
+      height: 12px;
+      background-color: #fff;
+      border: 2px solid #ccc;
+      border-radius: 50%;
+      position: relative;
+      z-index: 1;
+  }
+
+  /* Details Section */
+  .details {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+  }
+
+  .date-time {
+      font-size: 14px;
+      color: #555;
+      margin: 0;
+  }
+
+  .location {
+      font-size: 16px;
+      color: #000;
+      margin: 0;
+      font-weight: 600;
+  }
+
+  .logo {
+      display: flex;
+      gap: 10px;
+
+      img {
+          height: 60px;
+          width: 60px;
+      }
+  }
+}
+
+.seats {
+  width: 100%;
+  border-width: 1px solid #3636361A;
+  border-radius: 20px;
+  background-color: #F8F8F8;
+  padding: 10px 30px 10px 30px;
+}
+
+.green-text {
+  font-weight: 400;
+  font-size: 16px;
+  color: #008234;
+}
+
+
+.blue-seats {
+  width: 48px;
+  height: 40px;
+  border-width: 1px;
+  border-radius: 10px;
+  border: 1px solid #312783;
+  font-weight: 400;
+  font-size: 10px;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.invisible-number {
+  width: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border-width: 1px;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  width: 100%;
+  padding: 4px;
+  text-align: center;
+}
+.free-seats {
+  width: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border-width: 1px;
+  border-radius: 10px;
+  border: 1px solid #008234;
+  background: #0082341A;
+  font-weight: 400;
+  font-size: 10px;
+  padding: 4px;
+  text-align: center;
+}
+
+.not-seats {
+  width: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border-width: 1px;
+  border-radius: 10px;
+  border: 1px solid #0000001A;
+  background: #DDDDDD;
+  font-weight: 400;
+  font-size: 10px;
+  padding: 4px;
+  text-align: center;
+}

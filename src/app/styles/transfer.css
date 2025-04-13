@@ -1,0 +1,113 @@
+.cab-card {
+    background-color: #fff;
+    border: 1px solid #f0f0f0;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cab-info {
+    display: flex;
+    align-items: flex-start;
+    border-right: 1px solid lightgray;
+    padding-right: 30px;
+}
+
+.cab-icon-emoji {
+    font-size: 2rem;
+    margin-right: 15px;
+    color: #3f51b5;
+    /* A shade of blue */
+}
+
+.cab-details {
+    flex-grow: 1;
+}
+
+.cab-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.cab-rating {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #ffc107;
+    /* Star color */
+    margin-bottom: 3px;
+}
+
+.cab-rating-stars {
+    margin-right: 5px;
+}
+
+.cab-features {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.cab-pricing {
+    text-align: right;
+}
+
+.original-price {
+    font-size: 12px;
+    color: #6c757d;
+    text-decoration: line-through;
+    margin-bottom: 3px;
+}
+
+.discounted-price {
+    font-size: 17px;
+    font-weight: bold;
+    color: #000;
+    /* Green for discount */
+    margin-bottom: 3px;
+}
+
+.taxes-charges {
+    font-size:11px;
+    color: #6c757d;
+}
+
+.book-button {
+    border: 1px solid #dc3545;
+    color: #dc3545;
+    background-color: transparent;
+    padding: 2px 22px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 13px;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.book-button:hover {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.additional-info {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15px;
+    padding-top: 15px;
+    font-size: 0.8rem;
+    color: #6c757d;
+    gap: 14px;
+}
+
+.info-item {
+    text-align: left;
+}
+
+.info-label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 3px;
+}
