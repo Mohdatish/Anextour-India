@@ -111,3 +111,63 @@
     display: block;
     margin-bottom: 3px;
 }
+
+
+
+
+.details-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.details-header {
+    margin-bottom: 15px;
+}
+
+.details-main-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.details-description {
+    font-size: 13px;
+    color: #6c757d;
+    font-weight: 400;
+}
+
+.inclusion-exclusion-section {
+    display: flex;
+    margin-top: 20px;
+}
+
+.inclusion-list, .exclusion-list {
+    flex: 1;
+    padding: 15px;
+}
+
+.list-title {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    color: #495057;
+}
+
+.check-icon {
+    color: #28a745; /* Green for check */
+    margin-right: 8px;
+}
+
+.asterisk-icon {
+    color: #dc3545; /* Red for asterisk */
+    margin-right: 8px;
+}
+
