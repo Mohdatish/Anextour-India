@@ -112,3 +112,50 @@
     margin-bottom: 3px;
 }
 
+
+
+.pop-baggage-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.pop-baggage-info {
+    text-align: left;
+}
+
+.pop-flight-title {
+    color: #6c757d; /* Grey text */
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.pop-baggage-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.pop-baggage-icon {
+    font-size: 1.2rem;
+    margin-right: 8px;
+    color: #007bff; /* Blue icon color */
+}
+
+.pop-baggage-details {
+    font-size: 0.85rem;
+    color: #343a40; /* Dark text */
+}
+
+.pop-included-title {
+    color: #212529; /* Darker text */
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.pop-included-subtitle {
+    color: #6c757d;
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+}
