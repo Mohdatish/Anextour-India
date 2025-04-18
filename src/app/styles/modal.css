@@ -1,0 +1,24 @@
+.auth-otp-image {
+    background-image: url('/assets/image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+}
+
+.otp-modal-heading {
+    font-weight: 700;
+    font-size: 30px;
+    color: #312783;
+}
+
+@media (max-width: 425px) {
+    .auth-otp-image {
+        display: none;
+    }
+
+    .otp-mobile-display {
+        display: block !important;
+    }
+}

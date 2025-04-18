@@ -187,3 +187,20 @@ p {
   font-weight: 400;
   color: #4A4A4A; 
 }
+
+select,
+input.detail-input {
+    width: 100%;
+    height: 40px;
+    max-width: 200px;
+    padding: 10px;
+    border: 1px solid #4342421A !important;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    background-color: #F8F8F8;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #312783 !important;
+    outline: none;
+}
