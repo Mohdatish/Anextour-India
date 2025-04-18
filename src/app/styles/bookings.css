@@ -1,0 +1,106 @@
+.status-filter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #312783;
+}
+
+
+.booking-card {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    background: #FFFFFF;
+
+    img {
+        object-fit: cover;
+        height: 211px;
+        max-width: 355px;
+        width: 100%;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+}
+
+.detail-booking-image {
+    width: 200px;
+    height: 140px;
+    border-radius: 20px;
+}
+
+.my-bookings {
+
+    .timeline-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* width: 100%; */
+    }
+
+    .line {
+        /* flex-grow: 1; */
+        height: 2px;
+        width: 80px;
+        background-color: #999;
+    }
+
+    .circle {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 2px solid #999;
+        background-color: white;
+    }
+
+    .label-direction {
+        background-color: #312783;
+        /* Dark blue */
+        color: white;
+        font-size: 13px;
+        font-weight: 400;
+        padding: 8px 16px;
+        border-radius: 12px;
+        white-space: nowrap;
+    }
+
+}
+
+
+.fill-blue-btn{
+    
+    width: 100%;
+    min-width: 180px;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 10px 10px 10px 20px;
+    background-color: #2b2783 !important;
+    color: #ffffff !important;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+}
+
+.fill-btn {
+    width: 100%;
+    min-width: 180px;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 10px 10px 10px 20px;
+    background-color: #E30613 !important;
+    color: #ffffff !important;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+}
+
+

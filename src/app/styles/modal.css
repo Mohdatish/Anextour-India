@@ -22,3 +22,127 @@
         display: block !important;
     }
 }
+
+
+.price {
+    .popup {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+
+    .popup .view .heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .popup .view .heading .fair {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 31.82px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #312783;
+    }
+
+
+    .popup .view .heading .para {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18.56px;
+        margin-top: 10px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+    }
+
+    .cards {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    /* card styel start from here */
+    .card {
+        width: 236px;
+        height: auto;
+        border: 1px solid #3636361a;
+        border-radius: 20px;
+        background-color: #FFFFFF;
+    }
+
+    .card .top {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px;
+    }
+
+    .card .type {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15.91px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+    }
+
+
+    .card .overview {
+        display: flex;
+        padding: 15px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .card .overview .title {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 15.91px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #000000;
+    }
+
+    .card .overview .purchase-offer p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 15.91px;
+        margin: 0;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #00000080;
+    }
+
+    .card .book-now-button {
+        text-align: center;
+        padding: 15px;
+    }
+
+    .card button {
+        padding: 6px 25px;
+        border-radius: 5px;
+        border: 1px solid #e30613;
+        font-size: 13px;
+        font-weight: 400;
+        background: #e30613;
+        color: #ffffff;
+        cursor: pointer;
+        line-height: 18.23px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+}
